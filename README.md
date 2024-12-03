@@ -1,7 +1,7 @@
 # Signdocs 🚀
 ![Java](https://img.shields.io/badge/Java-17-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-green)
-![Version](https://img.shields.io/github/v/release/user/signdocs)
+![Version](https://img.shields.io/github/v/tag/gabrielsizilio/signdocs)
 
 O SignDocs é uma aplicação web construída em Java, utilizando o framework Spring, e por enquanto, React para clients web,  que gerencia a assinatura digital de documentos. Ele permite que os usuários façam login, upload de documentos, definam signatários e gerenciem o fluxo de assinaturas com segurança e eficiência.
 
