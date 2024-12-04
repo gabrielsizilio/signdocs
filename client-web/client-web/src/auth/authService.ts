@@ -1,5 +1,4 @@
 import api from "../api/api"
-import { IUser } from "../context/AuthProvider/authTypes";
 
 export async function loginRequest(email: string, password: string) {
     try {
@@ -12,19 +11,4 @@ export async function loginRequest(email: string, password: string) {
         return null;
     }
 
-}
-
-export function setUserLocalStorage(user: IUser | null) {
-    localStorage.setItem("tk", JSON.stringify(user));
-}
-
-export function getUserLocalStorage() {
-    const json = localStorage.getItem("tk");
-
-    if (!json) {
-        return null;
-    }
-
-    const user = JSON.parse(json);
-    return user ?? null;
 }
