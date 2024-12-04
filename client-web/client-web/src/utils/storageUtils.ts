@@ -1,3 +1,5 @@
+import { IUser } from "../context/authTypes";
+
 export function setUserLocalStorage(user: IUser | null) {
     localStorage.setItem("tk", JSON.stringify(user));
 }
