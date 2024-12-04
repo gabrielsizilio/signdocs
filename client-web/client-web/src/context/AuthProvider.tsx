@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IUser } from "./AuthProvider/authTypes";
+import { IUser } from "./authTypes";
 import { getUserLocalStorage, setUserLocalStorage } from "../utils/storageUtils";
 import { AuthContext } from "./AuthContext";
 import { loginRequest } from "../auth/authService";
